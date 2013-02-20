@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<system xmlns="http://www.eiffel.com/developers/xml/configuration-1-9-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eiffel.com/developers/xml/configuration-1-9-0 http://www.eiffel.com/developers/xml/configuration-1-9-0.xsd" name="project" uuid="C4373DB5-2525-45EF-A480-C8D3D80CD915" readonly="false" library_target="components">
+	<target name="components">
+		<root class="COMPONENTS_TEST" feature="make"/>
+		<option warning="true" is_attached_by_default="false" void_safety="none" syntax="transitional">
+			<assertions precondition="true" postcondition="true" check="true" invariant="true" loop="true" supplier_precondition="true"/>
+		</option>
+		<setting name="concurrency" value="scoop"/>
+		<library name="base" location="$ISE_LIBRARY\library\base\base.ecf"/>
+		<cluster name="components" location=".\" recursive="true">
+			<file_rule>
+				<exclude>/EIFGENs$</exclude>
+				<exclude>/CVS$</exclude>
+				<exclude>/.svn$</exclude>
+			</file_rule>
+		</cluster>
+	</target>
+</system>

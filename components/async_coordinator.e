@@ -1,0 +1,7 @@
+class
+	ASYNC_COORDINATOR
+
+inherit
+	COORDINATOR
+
+end

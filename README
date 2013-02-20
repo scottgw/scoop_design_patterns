@@ -1,0 +1,6 @@
+This project consists of the SCOOP implementation of the connectors and 
+components design patterns. These behavioral design patterns attempt to
+bridge the gap between high-level design and implementation of concurrent
+systems.
+
+A case study (ATM system) is also included to show the usage of the patterns.

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<system xmlns="http://www.eiffel.com/developers/xml/configuration-1-9-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eiffel.com/developers/xml/configuration-1-9-0 http://www.eiffel.com/developers/xml/configuration-1-9-0.xsd" name="behav_pattern" uuid="FE949D0D-779C-49AA-AADC-2D8AA3156E32" readonly="false" library_target="connectors">
+	<target name="connectors">
+		<root class="CONNECTOR_TEST" feature="make"/>
+		<option warning="true" is_attached_by_default="false" syntax="transitional">
+			<assertions precondition="true" postcondition="true" check="true" invariant="true" loop="true" supplier_precondition="true"/>
+		</option>
+		<setting name="concurrency" value="scoop"/>
+		<library name="base" location="$ISE_LIBRARY\library\base\base.ecf"/>
+		<cluster name="connectors" location=".\" recursive="true">
+			<file_rule>
+				<exclude>/EIFGENs$</exclude>
+				<exclude>/CVS$</exclude>
+				<exclude>/.svn$</exclude>
+			</file_rule>
+		</cluster>
+	</target>
+</system>
